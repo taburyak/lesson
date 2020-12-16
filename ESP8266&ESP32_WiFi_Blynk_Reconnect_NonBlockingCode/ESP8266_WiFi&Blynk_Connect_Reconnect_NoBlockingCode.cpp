@@ -1,11 +1,11 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include "BlynkSimpleEsp8266.h"
-#include "UserDefines.h"
+//#include "UserDefines.h"
 
-const char* ssid        = MY_SSID;
-const char* password    = MY_PASS;
-const char* blynkToken  = MY_TOKEN;
+const char* ssid        = "MY_SSID";
+const char* password    = "MY_PASS";
+const char* blynkToken  = "MY_TOKEN";
 
 bool isWiFiConnected = false;
 int  numTimerReconnect = 0;

@@ -1,11 +1,11 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include "BlynkSimpleEsp32.h"
-#include "UserDefines.h"
+//#include "UserDefines.h"
 
-const char* ssid        =  MY_SSID;
-const char* password    =  MY_PASS;
-const char* blynkToken  =  MY_TOKEN;
+const char* ssid        =  "MY_SSID";
+const char* password    =  "MY_PASS";
+const char* blynkToken  =  "MY_TOKEN";
 
 bool isWiFiConnected = false;
 bool keyFlag         = false;
